@@ -1,0 +1,8 @@
+html
+  head
+    title HMS - Bookings
+  body
+    h1 Bookings
+    ul
+      each booking in bookings
+        li= `Hostel: ${booking.hostel_name}, Room: ${booking.room_number}`
