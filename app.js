@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 const pool = new Pool({
   user: 'mwakyusa',
-  host: 'localhist',
+  host: 'localhost',
   database: 'hms',
   password: '2002',
   port: 5432,
